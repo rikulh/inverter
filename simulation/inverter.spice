@@ -1,0 +1,6 @@
+** sch_path: /home/riku/inverter/inverter.sch
+.subckt inverter VCC A Q VDD
+*.PININFO VCC:B A:I Q:O VDD:B
+XM1 Q A VCC VCC NMOS w=3.4u l=1u as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0 m=1
+XM2 Q A VDD VDD PMOS w=3.4u l=1u as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0 m=1
+.ends

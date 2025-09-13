@@ -1,0 +1,5 @@
+---
+target: inverter
+reference: lvs_work/inverter_reference.cir.txt
+netlist: "/home/riku/inverter/simulation/inverter.spice"
+schematic: "/home/riku/inverter/simulation/inverter.spice"
